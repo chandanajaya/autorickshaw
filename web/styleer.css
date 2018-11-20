@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700|Raleway');
+body{
+	margin: 0;
+}
+
+header{
+	background: black;
+	color: white;
+	padding: 0px 0px 6px 40px;
+	height: 40px;
+}
+
+header h1{
+	display: inline;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 18px;
+}
+
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+
+nav ul li{
+	font-size: 15px;
+	margin-top: 0px;
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 17px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+#nav{
+	font-family:monospace;
+}
+
+.homered{
+    font-family: monospace;
+	background-color: red;
+	padding: 30px 12px 12px 12px;
+}
+
+.divider{
+	background-color: red;
+	height: 6px;
+}
+.divider1{
+	background-color: red;
+	height: 5.75px;
+}
+.homeblack{
+        font-family: monospace;
+        background-color: blueviolet;
+        padding: 30px 10px 10px 10px;
+}
+
+.homeblack:hover{
+        font-family:monospace;
+	background-color: blue;
+	padding: 30px 12px 12px 12px;
+}
+
+.fwimage1{
+	background-image: url(images/01.jpg);
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 10px 0px 35px 0px;
+}
+
+.bg{
+	background-image: url(img/auto_rickshaw_02.gif);
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+        background-position: center;
+
+	margin: 0px 0px;
+	padding: 10px 0px 35px 0px;
+}
+.bg3{
+	background-image: url(images/bg22.jpg);
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px 0px;
+	padding: 10px 0px 35px 0px;
+}
+.bg2{
+	background-image: url(images/download.jpg);
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: -20px 0px;
+	padding: 13px 0px 35px 0px;
+}
+
+.Subline{
+	font-family: 'Raleway', sans-serif;
+	margin: 0.5;
+	padding: 3% 5% 0% 65%;
+	font-size: 30px;
+	color: red;
+}
+
+.Quick{
+	font-family: 'Raleway', sans-serif;
+	margin : 0;
+	padding: 0% 5% 0% 65%;
+	font-size: 60px;
+	color: black;
+
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  width: 100%;
+  height: 550px;
+	background-color: white;
+}
+
+.card2 {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+	margin-left: 13cm;
+  text-align: center;
+  font-family: arial;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.blah{
+
+	color: black;
+	font-style: bold;
+	font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+		position: relative;
+		    left: 1.1cm;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.butt{
+        background-color: blueviolet;
+        font-family: monospace;
+        color: white;
+        position: relative;
+        left: 13cm;
+
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background-color:orangered;
+    font-family:"Lucida Sans Unicode";
+    color:white;
+    font-size: "11px";
+    text-decoration: right;
+
+
+}
+
+.h2
+{
+font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+}
+
+
+
+.form{
+    padding-top: 3cm;
+    padding-left: 13cm;
+}
+
+.form2{
+		padding-top: 3cm;
+    padding-left: 13cm;
+}
+
+.Recharge{
+    color:black;
+    font-family:monospace;
+}
+
+.ip{
+    font-family: Raleway;
+		text-align: center;
+
+
+}
+.img {
+
+}
+
+.Errmsg{
+	font-family: 'Raleway', sans-serif;
+	padding-top: 4cm;
+	padding-left: 13cm;
+	font-size: 30px;
+	color: yellow;
+}
+
+
+
+.font3{
+	font-family: 'Raleway', sans-serif;
+	color: green;
+
+}
+
+button1 
+{
+    position: absolute;
+    border:none;
+    outline: none;
+    height: 40px;
+    background: #000;
+    color:yellow;
+    font-size: 20px;
+    border-radius: 25px;
+    top:320px;
+    left: 1020px;
+}

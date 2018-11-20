@@ -1,0 +1,117 @@
+body {
+  
+    padding: 20px;
+    background: url(img/auto.gif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: lightblue;
+  opacity: 0.75;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+    
+  float: left;
+  width: 48%;
+  background-image: url("img/image1.jpg")
+}
+
+/* Right column */
+.rightcolumn {
+   
+
+  float: right;
+  width: 48%;
+  background-image: url("img/image1.jpg")
+  
+}
+
+/* Fake image */
+.fakeimg1 {
+  
+  width: 100%;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  opacity: 0.7;
+}
+ 
+.fakeimg2 {
+  
+  width: 100%;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  opacity: 0.7;
+}
+
+/* Add a card effect for articles */
+.card {
+  
+  padding: 45px;
+  margin-top: 20px;
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.autobox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.autobox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.autobox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.autobox a:hover
+{
+    color: #ffc107;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+
+/* Footer */
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */

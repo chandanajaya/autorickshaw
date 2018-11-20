@@ -1,0 +1,55 @@
+<html>
+<head>
+<title> Signup Form  </title>   
+    <link rel="stylesheet" type="text/css" href="stylesu.css">
+</head>
+<body>
+<form method="post" action="register1.jsp">
+    <div id="login-box">
+      <div class="left-box">
+        <h1> Sign Up</h1>
+                      <p>Username</p>
+          <input type="text" name="usrname" placeholder="Enter Username" required>
+	  <p>Name</p>
+          <input type="text" name="uname" placeholder="Enter Name" required>
+                    <p>Phone number</p>
+          <input type="text" name="telno" placeholder="Enter number" required>
+          <p>Vehicle Reg.No</p>
+          <input type="text" name="regno" placeholder="Enter Vehicle Reg.No" required>
+          <p>Driving Licence Number</p>
+          <input type="text" name="licno" placeholder="Enter Driving Licence Number" required>
+                    <p>Password</p>
+          
+          <input id="psw" type="password" name="pswd" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+      
+            <input  type="checkbox" onclick="myFunction()">Show Password
+            <script>
+             function myFunction() {
+                                var x = document.getElementById("psw");
+                                if (x.type === "password") {
+                                    x.type = "text";
+                                } else {
+                                    x.type = "password";
+                                }
+                                }
+                    </script> 
+                  <p>Retype password</p>
+          <input type="password" name="pswd2" placeholder="Retype password" required>
+          <center>
+          <input type="submit" name="signup-button" value="Sign Up"/>
+          </center>
+        </div>
+        <div class="right-box">
+          <span class="signinwith">Sign in with<br/>Social Network     </span>
+        
+        <button class="social facebook">Log in with Facebook</button>    
+        <button class="social twitter">Log in with Twitter</button> 
+        <button class="social google">Log in with Google+</button> 
+            
+        
+        </div>
+        <div class="or">OR</div>
+    </div>
+    </form>
+</body>    
+</html>
